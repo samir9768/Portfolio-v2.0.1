@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samir's Portfolio |  Digital Marketer & Front-End Developer</title>
+  
+    <meta
+      name="description"
+      content="I am Samir, a Digital Marketer and Front-End Web Developer from Nepal, creating engaging digital experiences and effective Marketing campaigns."
+    />
+    <meta
+      name="keywords"
+      content="Samir, samir, samir chaulagaain, online marketer, digital marketer"
+    />
+    <meta name="publisher" content="Samir Chaulagain" />
+    <meta name="author" content="Samir Chaulagain" />
+    <link rel="apple-touch-icon" href="/images/briefcase.png" />
+    <link rel="icon" href="/images/briefcase.png" type="image/png" />
+    <link rel="shortcut icon" href="/images/briefcase.png" type="image/png" />
+    <link rel="stylesheet" href="Styles.css" />
+         <!-- Breadcrumbs JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://samirfolio.netlify.app/#header"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "About",
+            "item": "https://samirfolio.netlify.app/#about"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Services",
+            "item": "https://samirfolio.netlify.app/#services"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Portfolio",
+            "item": "https://samirfolio.netlify.app/#portfolio"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Contact",
+            "item": "https://samirfolio.netlify.app/#contact"
+          }
+        ]
+      }
+      </script>
+      <meta property="og:title" content="Online Marketer & Front-End Developer Nepal - Samir">
+<meta property="og:site_name" content=Samir's Portfolio>
+<meta property="og:url" content=https://samirfolio.netlify.app/>
+<meta property="og:description" content=I am Samir, a Digital Marketer and Front-End Web Developer from Nepal, creating engaging digital experiences and effective Marketing campaigns.>
+<meta property="og:image" content=https://pxraja.com/wp-content/uploads/2024/06/anime-dp-76.webp>
+<meta name="google-site-verification" content="Bfq07z13-O0bUWkvFFMdakKhw-08yTZxKbFvSE4kPMo" />
+  </head>
+
+  <body>
+    <main>
+    <!-- .............Home....................... -->
+    <header id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo" alt="Samir Portfolio logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about" tabindex="0">About</a></li>
+            <li><a href="#services" tabindex="0">Services</a></li>
+            <li><a href="#portfolio" tabindex="0">Portfolio</a>
+            </li>
+            <li><a href="#contact" tabindex="0">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p><span id="job-title"></span></p>
+          <h1>
+            Hello, I am <span> <strong>Samir</strong></span
+            ><br />
+            from Nepal.
+          </h1>
+        </div>
+      </div>
+    </header>
+    <!-- ...................About....................... -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/jpg.jpeg" alt="Picture used in samir portfolio" />
+          </div>
+          <div class="about-col-2">
+            <h2 class="sub-title" style="color: #1fa0ff">About Me</h2>
+            <p>
+              I am Samir, a <strong>Digital marketer </strong>and
+              <strong>front-end developer </strong>from Nepal. I create engaging
+              online experiences and effective marketing campaigns. Skilled in
+              Digital Marketing strategies HTML, CSS. I build responsive
+              websites and promote businesses online. I love solving challenges
+              and continuously learning in this dynamic field.
+            </p>
+            <div class="tab-titles">
+              <div class="tab-links active-link" onclick="openTab('skills')">
+                Skills
+              </div>
+              <div class="tab-links" onclick="openTab('experience')">
+                Experience
+              </div>
+              <div class="tab-links" onclick="openTab('education')">
+                Education
+              </div>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Digital Marketer</span><br />
+                  With my online marketing skills, I can promote your business
+                  through various campaigns and strategies.<br />
+                  
+                </li>
+                <li>
+                  <span>Web Developer</span><br />I can build the front end of
+                  your website using HTML, CSS, and currently learning
+                  JavaScript and React.
+                </li>
+                
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2024</span><br />No Experience</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2024</span><br />Digital Marketing Certification - <a href="https://wizonbiz.com/" class="hubspot wizonbiz" target="_blank">Wizonbiz.</a> </li>
+                <li><span>2024</span><br />Search Engine Optimization Certification - <a href="images/hubspot certificate.png" class="hubspot wizonbiz" target="_blank">HubSpot academy.</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ..............Services.............. -->
+    <section id="services">
+      <div class="container">
+        <h2 class="sub-title" style="color: #1fa0ff">My Services</h2>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-chart-simple"></i>
+            <h3>Digital Marketing</h3>
+            <p>
+              I offer Online Marketing services to help promote your business
+              through various online strategy, I 
+              guarantee the success from your
+              business than ever.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h3>Web Development</h3>
+            <p>
+              I create responsive and engaging websites using the latest web
+              technologies.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-uncharted"></i>
+            <h3>Software Development</h3>
+            <p>
+              I develop software solutions required to your business needs, with
+              software development software like C, C++ and Python.
+            </p>
+            <a
+              href="https://www.linkedin.com/in/samir-chaulagain-427a8630a/"
+              target="_blank"
+              >Learn more</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ...............Portfolio............. -->
+    <section id="portfolio">
+      <div class="container">
+        <h2 class="sub-title" style="color: #1fa0ff">My Work</h2>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.jpg" alt="Samir's web development projects" />
+            <div class="layer">
+              <h3>Web Development</h3>
+              <p>
+                Developed web apps like a calculator, portfolio website, and
+                various other responsive websites.
+              </p>
+              <a
+                href="https://www.facebook.com/samir.chaulagai.902"
+                target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img
+              src="images/work-2.png"
+              alt="Digital Marketing Project done by samir"
+              style="height: 410px"
+            />
+            <div class="layer">
+              <h3>Digital Marketing</h3>
+              <p>
+                Collaborated with agencies and major companies like Google and
+                Amazon on successful marketing campaigns.
+              </p>
+              <a href="https://www.linkedin.com/in/samir-chaulagain-427a8630a/"
+                target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img
+              src="images/work-3.jpg"
+              alt="Samir's portfolio of Software Development Project"
+              style="height: 410px"
+            />
+            <div class="layer">
+              <h3>Phishing site</h3>
+              <p>
+                Created a Phishing site with clone of login page of facebook.
+                Just used it for educational purpose.
+              </p>
+              <a href="https://loghere.netlify.app/" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="https://www.facebook.com/samir.chaulagai.902" class="btn"
+          target="_blank">See more</a
+        >
+      </div>
+    </section>
+    <!-- ..........Contact............ -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h2 class="sub-title" style="color: #1fa0ff">Contact Me</h2>
+            <div class="contact-info">
+              <div>
+                <i class="fa-solid fa-paper-plane"></i>
+                <p>Samirchaulagai54@gmail.com</p>
+              </div>
+              <div>
+                <i class="fa-solid fa-phone"></i>
+                <p>+977 9768405057</p>
+              </div>
+              <div>
+                <i class="fa-solid fa-location-dot"></i>
+                <p>
+                  Thali, Kathmandu<br />
+                  Nepal
+                </p>
+              </div>
+            </div>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/samir.chaulagai.902" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="https://www.instagram.com/samir010111/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="https://x.com/Samir32123" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/samir-chaulagain-427a8630a/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <div style="margin-bottom: 20px;"></div>
+              <a href="https://www.pinterest.com/samirchaulagai54/_created/" target="_blank">
+                <i class="fa-brands fa-pinterest"></i>
+              </a>
+              <a href="https://wa.link/wes0vp" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+            </div>
+            <a href="Samir's Resume.pdf" download class="btn btn2"><i class="fa-solid fa-download"></i> Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input
+                type="text"
+                name="Name"
+                placeholder="Enter Your Name"
+                required
+              />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Enter Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button
+                type="submit"
+                class="btn btn2"
+                onclick="alert('Your message has submitted to samir')"
+              >
+                Send
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+     </main>
+    <!-- ................Footer.............. -->
+    <footer id="footer">
+      <div class="container">
+        <div class="Copyright">
+          <p>&copy; 2025 @<strong>Samir</strong>🌐, All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- -.............scroll to top.............. -->
+    <a href="#" class="scroll-to-top" id="scrollToTop">
+      <i class="fas fa-chevron-up"></i>
+    </a>
+    <script>
+      // Job Titles Typing Effect
+      const jobTitles = [
+        "SEO Expert",
+        "Online Marketer",
+        "Front-End Developer",
+        "Graphics Designer",
+      ];
+      let currentJobIndex = 0;
+      let currentText = jobTitles[currentJobIndex];
+      let charIndex = 0;
+      let isDeleting = false;
+      const typingSpeed = 150;
+      const erasingSpeed = 50;
+      const delayBetweenJobs = 2000;
+
+      function typeJobTitle() {
+        const jobTitleElement = document.getElementById("job-title");
+
+        if (isDeleting) {
+          if (charIndex > 0) {
+            currentText = jobTitles[currentJobIndex].substring(
+              0,
+              charIndex - 1
+            );
+            charIndex--;
+            setTimeout(typeJobTitle, erasingSpeed);
+          } else {
+            isDeleting = false;
+            currentJobIndex = (currentJobIndex + 1) % jobTitles.length;
+            setTimeout(typeJobTitle, typingSpeed);
+          }
+        } else {
+          if (charIndex < jobTitles[currentJobIndex].length) {
+            currentText = jobTitles[currentJobIndex].substring(
+              0,
+              charIndex + 1
+            );
+            charIndex++;
+            setTimeout(typeJobTitle, typingSpeed);
+          } else {
+            isDeleting = true;
+            setTimeout(typeJobTitle, delayBetweenJobs);
+          }
+        }
+
+        // Add a blinking cursor after each word
+        let textWithCursor =
+          currentText.slice(0, charIndex) +
+          "<span class='blinking-cursor'>|</span>";
+        jobTitleElement.innerHTML = textWithCursor;
+      }
+
+      document.addEventListener("DOMContentLoaded", () => {
+        const jobTitleElement = document.getElementById("job-title");
+        jobTitleElement.innerHTML = jobTitles[currentJobIndex];
+        setTimeout(typeJobTitle, delayBetweenJobs);
+
+        window.onscroll = function () {
+          scrollFunction();
+        };
+
+        function scrollFunction() {
+          if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+          ) {
+            document.querySelector(".scroll-to-top").style.display = "block";
+          } else {
+            document.querySelector(".scroll-to-top").style.display = "none";
+          }
+        }
+      });
+
+      // Tab Content Switcher
+      var tabLinks = document.getElementsByClassName("tab-links");
+      var tabContents = document.getElementsByClassName("tab-contents");
+
+      function openTab(tabName) {
+        for (let tabLink of tabLinks) {
+          tabLink.classList.remove("active-link");
+        }
+        for (let tabContent of tabContents) {
+          tabContent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabName).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+      function closemenu() {
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwttlac6Ut1xR2xLPTXFlnUbf2uI71Bhw6ErxX_wObWewAZ0P1FvV20ZwyO9X42QJedgA/exec";
+      const form = document.forms["submit-to-google-sheet"];
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => console.log("Success!", response))
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+    <script
+      src="https://kit.fontawesome.com/0fa8f298d3.js"
+      crossorigin="anonymous"
+    ></script>
+   
+  </body>
+</html>
